@@ -1,0 +1,111 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    
+}
+
+.allthree {
+    width: 921px;
+    margin: auto;
+    padding-top: 115px;
+}
+
+.sedansbox {
+    width: 307px;
+    height: 500px;
+    background-color: hsl(31, 77%, 52%);
+    float: left;
+    border-radius: 8px 0 0 8px;
+}
+
+.suvsbox {
+    width: 307px;
+    height: 500px;
+    background-color: hsl(184, 100%, 22%);
+    float: left;
+}
+
+.luxurybox {
+    width: 307px;
+    height: 500px;
+    background-color: hsl(179, 100%, 13%);
+    display: inline-block;
+    border-radius: 0 8px 8px 0;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    padding-left: 30px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 30px;
+}
+
+.buttonsedans {
+    
+        background-color: rgba(255, 250, 240, 0);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        padding: 12px 32px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+        display: inline-block;
+        font-size: 16px;
+        margin: 30px 30px;
+        cursor: pointer;
+        border-radius: 25px;
+        stroke-width: 10px;
+        transition-duration: 0.4s;
+    
+}
+
+.buttonsedans:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+
+.buttonsuvs {
+    background-color: rgba(255, 250, 240, 0);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        padding: 12px 32px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+        display: inline-block;
+        font-size: 16px;
+        margin: 30px 30px;
+        cursor: pointer;
+        border-radius: 25px;
+        stroke-width: 10px;
+        transition-duration: 0.4s;
+}
+
+.buttonsuvs:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+
+.buttonluxury {
+    background-color: rgba(255, 250, 240, 0);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        padding: 12px 32px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+        display: inline-block;
+        font-size: 16px;
+        margin: 30px 30px;
+        cursor: pointer;
+        border-radius: 25px;
+        stroke-width: 10px;
+        transition-duration: 0.4s;
+}
+
+.buttonluxury:hover {
+    background-color: hsl(0, 0%, 95%);
+     color: hsl(179, 100%, 13%);
+}
